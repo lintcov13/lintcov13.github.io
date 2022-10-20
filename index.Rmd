@@ -1,0 +1,24 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is Jeff's awesome website
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+Here is the link to the internet. I use [google](https://www.google.com/) all the time to do data science. 
+
+This is a screen shot of the t 1/2 equation. ![](t_half.png))
+
+```{r}
+library(tidyverse)
+#you can have code chunks in the output 
+```
+
+Here is the direct link to the [about](about.html) page. 
+
+
