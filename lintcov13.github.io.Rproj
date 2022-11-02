@@ -13,3 +13,4 @@ RnwWeave: Sweave
 LaTeX: pdfLaTeX
 
 BuildType: Website
+WebsitePath: ~/Desktop/Fall 2022/Data Sci 1/iteration/lintcov13.github.io

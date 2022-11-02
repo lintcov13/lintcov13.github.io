@@ -1,11 +1,41 @@
 ---
-title: "About this website"
+title: "Resume"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-# This is Jeff's awesome website
+# Education 
 
-This is the about page for the website. 
+## Columbia Universtiy
+#### Master’s of Public Health: Environmental Health Sciences & Toxicology
+##### Expected Graduation: May 2023 
+##### GPA: 4.0 
+
+## Arizona State Universtiy
+#### Bachelor’s of Science: Biochemistry & Minor: Political Science
+##### Graduation: May 2019 
+##### GPA: 3.84
+
+# Professional Experience 
+
+## Research Assistant 
+### Kupsco Lab at Columbia Mailman School of Public Health 
+### Projects  
+##### cf-mtDNA isolation and quantification of copy number 
+######## Optimized protocol involvign qPCR and cell lysis assays. 
+######## Performed protocol on pilot sample studies 
+##### mtDNA copy nunber and adiposity analysis 
+######## Analyzed relationships within the data 
+######## Built models with key variable that hold statistically significant value to the data 
+
+
+## Lead Teach Assisstant 
+### Course: Determinants of Health 
+##### Build and monitor course website with all course materials for a class of 500 students
+##### Create syllabus and course scheudle 
+##### Review all course lecturess and ensure they are relefective of the  leanring objects
+##### Manage a team of Teaching Assistants team of 13 people
+##### Instruct TA team on guidlines for grading and review all grading procedures 
+

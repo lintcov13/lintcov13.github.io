@@ -1,24 +1,30 @@
 ---
-title: "My awesome website"
+title: "Lindsey Covell"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-# This is Jeff's awesome website
+### Columbia University Mailman School of Public Health 
+#### Department of Enirovnemntal Health Science 
+##### Masters in Public Health Candidate ('23) 
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+# About 
 
-Here is the link to the internet. I use [google](https://www.google.com/) all the time to do data science. 
+I grew up in southeast Pennsylvania and I am a big Philadelphia sports fan. I enjoy cooking, hiking, camping, and finding new places to explore. I received a BS in biochemistry from [Arizona State University](https://sms.asu.edu/) in 2019. I am currently working towards completing my MPH from Columbia Mailman School of Public health. The focus of my MPH is in Toxicology within the Department of Environmental Health Science. In addition to my course work, I currently hold the role as a Lead TA for the the Determinants of Health class in the [Mailman CORE](https://www.publichealth.columbia.edu/academics/degrees/master-public-health/core-curriculum). I also hold a role as a research assistant in the Kupsco Lab lead by PI [Dr. Allison Kupsco](https://www.publichealth.columbia.edu/people/our-faculty/ak4181). 
 
-This is a screen shot of the t 1/2 equation. ![](t_half.png))
+# Additional
 
-```{r}
-library(tidyverse)
-#you can have code chunks in the output 
-```
+I have a dog named Winnie and a cat named Katya. 
 
-Here is the direct link to the [about](about.html) page. 
+This is Winnie 
+<img src="Winnie.jpeg" style="width:75%">
+
+This is Katya
+<img src="cotty.jpeg" style="width:75%">
+
+# Direct Links 
+Here is the direct link to the [resume](Resume.html) page. 
 
 
