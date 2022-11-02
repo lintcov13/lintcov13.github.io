@@ -6,11 +6,11 @@ navbar:
     - text: "Resume"
       href: Resume.html
     - icon: fa-thin fa-envelope
-      href: mailto:<you@youremail.com>
+      href: mailto:<ltcovell13@gmail.com>
     - icon: fa-github fa-lg
       href: http://github.com/lintcov13/
-    - icon: fa-brands fa-linkedin-in
+    - icon: fa-brands fa-linkedin
       href: https://www.linkedin.com/in/lindsey-covell-494708233/
 output:
   html_document:
-    theme: cosmo
+    theme: yeti

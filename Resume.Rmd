@@ -9,12 +9,12 @@ output:
 # Education 
 
 ## Columbia Universtiy
-#### Master’s of Public Health: Environmental Health Sciences & Toxicology
+### Master’s of Public Health: Environmental Health Sciences & Toxicology
 ##### Expected Graduation: May 2023 
 ##### GPA: 4.0 
 
 ## Arizona State Universtiy
-#### Bachelor’s of Science: Biochemistry & Minor: Political Science
+### Bachelor’s of Science: Biochemistry & Minor: Political Science
 ##### Graduation: May 2019 
 ##### GPA: 3.84
 
