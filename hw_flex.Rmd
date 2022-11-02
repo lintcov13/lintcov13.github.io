@@ -1,0 +1,62 @@
+---
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r, include=FALSE}
+data("instacart")
+
+insta_df = instacart %>% 
+  sample_n(5000)
+
+glimpse(insta_df)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+insta_df %>% 
+    plot_ly(
+    x = ~days_since_prior_order, y = ~order_number, color = ~user_id, 
+    type = "scatter", mode = "markers", 
+    alpha = 0.5)
+
+
+insta_df %>% 
+    plot_ly(
+    x = ~days_since_prior_order, y = ~order_number, color = ~user_id, 
+    type = "scatter", mode = "markers", 
+    alpha = 0.5)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+insta_df %>%  
+ count(department) %>% 
+  mutate(department = fct_reorder(department, n)) %>% 
+  plot_ly(x = ~department, y = ~n, color = ~department, type = "bar", colors = "viridis")
+```
+
+### Chart C
+
+```{r}
+
+```
+
