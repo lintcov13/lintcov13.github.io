@@ -13,4 +13,4 @@ navbar:
       href: https://www.linkedin.com/in/lindsey-covell-494708233/
 output:
   html_document:
-    theme: yeti
+    theme: spacelab
