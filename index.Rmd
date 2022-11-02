@@ -18,13 +18,15 @@ I grew up in southeast Pennsylvania and I am a big Philadelphia sports fan. I en
 
 I have a dog named Winnie and a cat named Katya. 
 
+### This is Winnie 
+
 <img src="Winnie.jpeg" style="width:75%">
 
-This is Winnie 
+### This is Katya
 
 <img src="cotty.jpeg" style="width:75%">
 
-This is Katya
+
 
 
 # Direct Links 
