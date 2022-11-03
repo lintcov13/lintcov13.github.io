@@ -5,6 +5,8 @@ navbar:
   right:
     - text: "Resume"
       href: Resume.html
+    - text: "Dashboard"
+      href: hw_flex.html      
     - icon: fa-thin fa-envelope
       href: mailto:<ltcovell13@gmail.com>
     - icon: fa-github fa-lg
@@ -13,4 +15,4 @@ navbar:
       href: https://www.linkedin.com/in/lindsey-covell-494708233/
 output:
   html_document:
-    theme: spacelab
+    theme: yeti

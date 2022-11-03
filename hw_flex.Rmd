@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "NYC Restaurant Inspection Plots"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -14,49 +14,43 @@ library(plotly)
 ```
 
 ```{r, include=FALSE}
-data("instacart")
+data("rest_inspec")
 
-insta_df = instacart %>% 
-  sample_n(5000)
-
-glimpse(insta_df)
+rest_df = rest_inspec %>% 
+  sample_n(2000)
 ```
 
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Insecption Score by Date of Inspection  
 
 ```{r}
-insta_df %>% 
+rest_df %>% 
     plot_ly(
-    x = ~days_since_prior_order, y = ~order_number, color = ~user_id, 
-    type = "scatter", mode = "markers", 
-    alpha = 0.5)
-
-
-insta_df %>% 
-    plot_ly(
-    x = ~days_since_prior_order, y = ~order_number, color = ~user_id, 
-    type = "scatter", mode = "markers", 
+    x = ~inspection_date, y = ~score, color = ~boro, 
+    type = "scatter", mode = "markers", colors = "viridis", 
     alpha = 0.5)
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Number of Restaurants by Borough
 
 ```{r}
-insta_df %>%  
- count(department) %>% 
-  mutate(department = fct_reorder(department, n)) %>% 
-  plot_ly(x = ~department, y = ~n, color = ~department, type = "bar", colors = "viridis")
+rest_df %>%  
+ count(boro) %>% 
+  mutate(boro = fct_reorder(boro, n)) %>% 
+  plot_ly(x = ~boro, y = ~n, color = ~boro, type = "bar", colors = "viridis")
 ```
 
-### Chart C
+### Distribution of Insepction Scores by Borough
 
 ```{r}
+rest_df %>% 
+  mutate(boro = fct_reorder(boro, score)) %>%  
+      plot_ly(y = ~score, color = ~boro, type = "box", colors = "viridis")
 
 ```
 
